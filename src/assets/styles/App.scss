@@ -1,3 +1,11 @@
-body{
-    background-color: green;
-}
+@import './Vars.scss';
+
+body {
+    margin: 0;
+    font-family: $theme-font;
+    background: $main-color;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
