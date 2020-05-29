@@ -6,7 +6,8 @@ const useInitialState =(api)=>{
     useEffect(()=>{
         fetch(api)
         .then(response=>response.json())
-        .then(data=>setVideos(data))
+        .then(data=>{console.log(data)
+            setVideos(data)})
     }, [])
 
     return videos

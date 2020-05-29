@@ -9,3 +9,5 @@ const Footer = ()=>(
         <a href="/">Help</a>
     </footer>
 )
+
+export default Footer
