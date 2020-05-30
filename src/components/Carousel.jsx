@@ -1,4 +1,4 @@
-import React from 'reac'
+import React from 'react'
 
 import '../assets/styles/components/Carousel.scss'
 

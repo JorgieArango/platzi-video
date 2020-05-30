@@ -1,8 +1,8 @@
 import React from 'react'
 
 import '../assets/styles/components/CarouselItem.scss'
-import PlayIcon from '../assets/staticp/lay-icon.png'
-import PlusIcon from '../assets/staticp/plus-icon.png'
+import PlayIcon from '../assets/static/play-icon.png'
+import PlusIcon from '../assets/static/plus-icon.png'
 
 const CarouselItem = (props)=>(
     <div className="carousel-item">
